@@ -1,0 +1,1 @@
+select * from gold.fact_sales where order_date is not null ORDER BY order_date
