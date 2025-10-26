@@ -1,1 +1,39 @@
+# SQL Data Analytics Project - Git Ignore File
+
+# Exclude specific query files
 scripts/query.sql
+
+# Database files
+*.bak
+*.mdf
+*.ldf
+
+# Temporary files
+*.tmp
+*.temp
+
+# Log files
+*.log
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup files
+*.backup
+*.bak
+
+# Personal notes and drafts
+notes.txt
+draft.md
