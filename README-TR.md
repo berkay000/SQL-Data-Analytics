@@ -177,7 +177,7 @@ SELECT
     customer_segment,
     COUNT(*) as customer_count,
     SUM(total_sales) as total_revenue,
-    AVG(avg_order_value) as avg_order_value
+    AVG(average_order_value) as average_order_value
 FROM gold.report_customers
 GROUP BY customer_segment
 ORDER BY total_revenue DESC;
@@ -203,7 +203,7 @@ SELECT
     subcategory,
     COUNT(*) as product_count,
     SUM(total_sales) as category_revenue,
-    AVG(avg_selling_price) as avg_price
+    AVG(price) as avg_price
 FROM gold.report_products
 GROUP BY category, subcategory
 ORDER BY category_revenue DESC;
